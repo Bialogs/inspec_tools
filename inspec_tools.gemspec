@@ -3,11 +3,7 @@
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-begin
-  require 'inspec_tools/version'
-rescue LoadError
-  nil
-end
+require 'inspec_tools/version'
 
 Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.name          = 'inspec_tools'
