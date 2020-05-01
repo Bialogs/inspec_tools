@@ -20,7 +20,7 @@ Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.executables   << 'inspec_tools'
   spec.require_paths = ['lib']
 
-  spec.required_ruby_version = '~> 2.5'
+  spec.required_ruby_version = '~> 2.6'
 
   spec.add_runtime_dependency 'colorize', '~> 0'
   spec.add_runtime_dependency 'inspec', ">= 4.18.100", "< 5.0"
